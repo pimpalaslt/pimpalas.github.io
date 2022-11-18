@@ -42,6 +42,11 @@ p {
     margin-top: -20px;
 }
 
+.small-text {
+    margin-top: 3vh;
+    font-size: 0.5vw;
+}
+
 img {
     display: block;
     width: 20vw;
@@ -54,10 +59,15 @@ img {
 
 @media (max-width: 50rem) {
     .pavadinimas {
-        font-size: 2rem;
+        font-size: 12vw;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .small-text {
+        margin-top: 3vh;
+        font-size: 1.3vh;
     }
 
     p {
