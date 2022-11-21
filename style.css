@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-color: black;
+    color: white;
     font-family: "Comic Sans MS", "Comic Sans", Tahoma, Verdana, sans-serif;
 }
 
@@ -55,6 +56,11 @@ img {
     top: 15vw;
 }
 
+.ispardavimas {
+    font-size: 4rem;
+    text-align: center;
+}
+
 
 @media (max-width: 50rem) {
     .pavadinimas {
@@ -67,6 +73,11 @@ img {
     .small-text {
         margin-top: 3vh;
         font-size: 1.3vh;
+    }
+
+    .ispardavimas {
+        font-size: 3rem;
+        word-wrap: break-word;
     }
 
     p {
